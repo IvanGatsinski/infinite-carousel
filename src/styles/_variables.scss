@@ -1,0 +1,21 @@
+$color-text: #24272d;
+$color-text-muted: #555b63;
+$color-skeleton: #e6e8eb;
+
+$font-family-base: Manrope, Arial, sans-serif;
+$font-size-small: 0.8rem;
+
+$space-xs: 0.5rem;
+$space-sm: 1rem;
+$space-md: 2rem;
+$space-lg: 3rem;
+
+$viewport-min-width: 320px;
+$breakpoint-mobile: 600px;
+
+$page-padding-top: 2.2rem;
+$page-padding-top-mobile: 1.3rem;
+
+$carousel-card-width: 240px;
+$carousel-gap: 20px;
+$carousel-image-height: clamp(240px, 40vw, 360px);

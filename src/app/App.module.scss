@@ -1,0 +1,14 @@
+@use '@/styles/variables' as *;
+
+.page {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: $page-padding-top 0 $space-md;
+  color: $color-text;
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .page {
+    padding-top: $page-padding-top-mobile;
+  }
+}

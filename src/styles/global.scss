@@ -1,0 +1,15 @@
+@use '@/styles/variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family-base;
+}
+
+body {
+  min-width: $viewport-min-width;
+  margin: 0;
+}

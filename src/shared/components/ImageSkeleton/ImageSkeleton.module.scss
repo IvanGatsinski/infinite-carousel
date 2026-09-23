@@ -1,0 +1,8 @@
+@use '@/styles/variables' as *;
+
+.skeleton {
+  position: absolute;
+  inset: 0;
+  background-color: $color-skeleton;
+  pointer-events: none;
+}

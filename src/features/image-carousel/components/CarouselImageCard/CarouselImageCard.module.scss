@@ -1,0 +1,41 @@
+@use '@/styles/variables' as *;
+
+.card {
+  flex: 0 0 $carousel-card-width;
+  width: $carousel-card-width;
+}
+
+.media {
+  position: relative;
+  height: $carousel-image-height;
+}
+
+.image,
+.imagePending {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+}
+
+.imagePending {
+  opacity: 0;
+}
+
+.caption {
+  padding-top: $space-xs;
+  color: $color-text-muted;
+  font-size: $font-size-small;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.error {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: $color-text-muted;
+  font-size: $font-size-small;
+}

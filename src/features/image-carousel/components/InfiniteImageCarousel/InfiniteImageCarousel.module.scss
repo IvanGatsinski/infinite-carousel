@@ -1,0 +1,26 @@
+@use '@/styles/variables' as *;
+
+.carousel {
+  width: 100%;
+}
+
+.viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: auto;
+  overflow-anchor: none;
+  scrollbar-width: none;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  gap: $carousel-gap;
+  padding-right: $carousel-gap;
+}
+
+.empty {
+  padding: $space-lg $space-sm;
+  color: $color-text-muted;
+  text-align: center;
+}
